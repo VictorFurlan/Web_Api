@@ -2,7 +2,7 @@
 
 Abrir o arquivo como novo projeto no VISUAL STUDIO
 
-Download do projeto [binary release](https://github.com/VictorFurlan/Web_Api.git)
+Download do projeto [Web_Api](https://github.com/VictorFurlan/Web_Api/archive/master.zip)
 
 **NOTE:** netcoreapp2.1
 
