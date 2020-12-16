@@ -1,0 +1,43 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Web_Api</Name>
+    <Description>&lt;Nenhuma descrição disponível&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Web_Api</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Web_Api.csproj" File="Web_Api.csproj" ReplaceParameters="true">
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="launchSettings.json">launchSettings.json</ProjectItem>
+      </Folder>
+      <Folder Name="wwwroot" TargetFolderName="wwwroot" />
+      <Folder Name="Controllers" TargetFolderName="Controllers">
+        <ProjectItem ReplaceParameters="true" TargetFileName="PedidoController.cs">PedidoController.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="StautsController.cs">StautsController.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Models" TargetFolderName="Models">
+        <ProjectItem ReplaceParameters="true" TargetFileName="DBContext.cs">DBContext.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="IPedidoRepositorio.cs">IPedidoRepositorio.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="IStatusRepositorio.cs">IStatusRepositorio.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Item.cs">Item.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Mpedido.cs">Mpedido.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="PedidoRepositorio.cs">PedidoRepositorio.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Status.cs">Status.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="StatusRepositorio.cs">StatusRepositorio.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="appsettings.json">appsettings.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="appsettings.Development.json">appsettings.Development.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Startup.cs">Startup.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
