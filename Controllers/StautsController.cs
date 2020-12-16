@@ -57,7 +57,7 @@ namespace $safeprojectname$.Controllers
                 {
                     if(flag == 1)
                     {
-                        status.status += '"'+ ", "+'"';
+                        status.status += ", ";
                     }
                     status.pedido = s.pedido;
                     status.status += "APROVADO_QTD_A_MENOR";
@@ -67,7 +67,7 @@ namespace $safeprojectname$.Controllers
                 {
                     if (flag == 2 || flag == 1)
                     {
-                        status.status += '"' + ", " + '"';
+                        status.status += ", ";
                     }
                     status.pedido = s.pedido;
                     status.status += "APROVADO_VALOR_A_MAIOR";
@@ -77,7 +77,7 @@ namespace $safeprojectname$.Controllers
                 {
                     if (flag !=0 )
                     {
-                        status.status += '"' + ", " + '"';
+                        status.status += ", ";
                     }
                     status.pedido = s.pedido;
                     status.status += "APROVADO_QTD_A_MAIOR";
