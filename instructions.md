@@ -4,11 +4,11 @@ Abrir o arquivo como novo projeto no VISUAL STUDIO
 
 Download do projeto [binary release](https://github.com/VictorFurlan/Web_Api.git)
 
-**NOTE:** <TargetFramework>netcoreapp2.1</TargetFramework>
+**NOTE:** netcoreapp2.1
 
-**NOTE:** <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+**NOTE:** Microsoft.AspNetCore.Razor.Design Version = 2.1.2 PrivateAssets = All
 
-**NOTE:** <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.1.1" />
+**NOTE:** Microsoft.EntityFrameworkCore.InMemory Version = 2.1.1
 
 **NOTE:** workloads instalados:
 
