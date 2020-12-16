@@ -24,7 +24,7 @@ Microsoft.EntityFrameworkCore.InMemory NuGet package
 ```
 ## Endpoint – Pedido
 
-Endpoint: http://localhost:{porta}/api/pedido
+http://localhost:{porta}/api/pedido
 
 **NOTE:** Métodos:
 
